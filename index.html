@@ -209,6 +209,21 @@
 
     </div><br><br>
 
+<div class="splide">
+    <div class="splide__track">
+        <ul class="splide__list">
+            <li class="splide__slide"><img src="assets/img-1.jpeg"></li>
+            <li class="splide__slide"><img src="assets/img-2.jpeg"></li>
+            <li class="splide__slide"><img src="assets/img-3.jpeg"></li>
+        </ul>
+    </div>
+    
+    <div class="splide__progress">
+        <div class="splide__progress__bar">
+        </div>
+    </div>
+</div>
+
     <footer class="footer">
             <div class="row">
                 <div class="col-2 coluna"><a href="#">Particulares</a><br><a href="#">Voz</a><br><a href="#">SMS</a><br><a href="#">Internet</a><br><a href="#">Roaming</a><br><a href="#">Apoio ao Cliente</a><br><a href="#">Mundo Unitel</a></div>
@@ -217,7 +232,13 @@
              </div>
     </footer>
     <!-- Bibliotecas js -->
-    
+    <script>
+    document.addEventListener( 'DOMContentLoaded', function () {
+        new Splide( '.splide' ).mount();
+    } );
+</script>
+    <script src="js/splide.min.js"></script>
+    <link rel="stylesheet" href="css/splide.min.css">
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/index.js"></script>
