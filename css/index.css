@@ -1,6 +1,5 @@
-@font-face{
-    font-family: 'geometos' ;
-    src: url(../assets/fonts/GeometosNeueExtraBold.ttf) format('truetype');
+body {
+  overflow-x: hidden; /* Hide vertical scrollbar */
 }
 
 #actions-menu{
