@@ -1,1 +1,1 @@
-<div class="col-2 coluna"><a href="#">Particulares</a><br><a href="#">Voz</a><br><a href="#">SMS</a><br><a href="#">Internet</a><br><a href="#">Roaming</a><br><a href="#">Apoio ao Cliente</a><br><a href="#">Mundo Unitel</a></div>
+ELABORADO POR CLENIO CANJAMBA
