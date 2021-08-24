@@ -23,12 +23,24 @@ body {
     color: #f16223;
 }
 
+#menu-bottom a:hover{
+    text-decoration: underline;
+    background: 
+    linear-gradient(to right, rgba(100, 200, 200, 1), rgba(100, 200, 200, 1)),
+    linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
 #menu-bottom a{
     font-weight: bolder;
     color: #5c0f8b;
     margin-right: 20px;
     font-size: .9375rem;
     margin-top: 5px;
+    
 
 }
 
@@ -175,14 +187,12 @@ width: 100%;
             font-family: Intro Regular Regular;
             border-radius: 0px;
 
-            
-
         }
          
         .nav-tabs .nav-link {
             background-color: white;
             color: #5c0f8b;
-            width: 566px;
+            width: 556px;
             font-family: Intro Light Regular;
             border-radius: 0px;
 
